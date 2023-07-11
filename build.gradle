@@ -35,3 +35,10 @@ dependencies {
     providedCompile 'com.controlj.green:directaccess-api-addon:1.8.1'
     providedCompile 'javax.servlet:servlet-api:2.5'
 }
+
+gradleEnterprise {
+    buildScan {
+        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+        termsOfServiceAgree = "yes"
+    }
+}
