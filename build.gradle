@@ -31,14 +31,14 @@ dependencies {
     providedCompile 'commons-lang:commons-lang:2.5'
     providedCompile 'org.json:json:20080701'
 
-    providedCompile 'com.controlj.green:bacnet-api-addon:1.8.1'
-    providedCompile 'com.controlj.green:directaccess-api-addon:1.8.1'
+    providedCompile 'com.controlj.green:bacnet-api-addon:1.5.0'
+    providedCompile 'com.controlj.green:directaccess-api-addon:1.5.0'
     providedCompile 'javax.servlet:servlet-api:2.5'
 }
 
-gradleEnterprise {
-    buildScan {
-        termsOfServiceUrl = "https://gradle.com/terms-of-service"
-        termsOfServiceAgree = "yes"
-    }
-}
+//gradleEnterprise {
+//    buildScan {
+//        termsOfServiceUrl = "https://gradle.com/terms-of-service"
+//        termsOfServiceAgree = "yes"
+//    }
+//}
